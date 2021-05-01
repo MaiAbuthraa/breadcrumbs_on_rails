@@ -100,6 +100,7 @@ Current possible options are:
 
 - `:separator`
 - `:tag`
+- `:class`
 
 To use with Bootstrap you might use the following:
 
@@ -107,6 +108,16 @@ To use with Bootstrap you might use the following:
 <body>
   <ol class="breadcrumb">
     <%= render_breadcrumbs :tag => :li, :separator => "" %>
+  </ol>
+</body>
+```
+
+To add a custom class in each tag
+
+```html
+<body>
+  <ol class="breadcrumb">
+    <%= render_breadcrumbs :tag => :li, :class => "breadcrumb-item" %>
   </ol>
 </body>
 ```
