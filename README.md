@@ -112,7 +112,7 @@ To use with Bootstrap you might use the following:
 </body>
 ```
 
-To add a custom class in each tag
+To add a custom class in each tag, and tag option should be set.
 
 ```html
 <body>
